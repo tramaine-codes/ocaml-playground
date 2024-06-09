@@ -14,7 +14,7 @@ Ensure the following requirements are met prior to usage:
 Initialize Opam:
 
 ```sh
-$ opam init --enable-shell-hook
+opam init --enable-shell-hook
 ```
 
 > This should only be performed once on your machine.
@@ -22,19 +22,19 @@ $ opam init --enable-shell-hook
 Clone the repository:
 
 ```sh
-$ git clone git@github.com:tgillus/ocaml-playground.git
+git clone git@github.com:tgillus/ocaml-playground.git
 ```
 
 Navigate into the project directory:
 
 ```sh
-$ cd ocaml-playground
+cd ocaml-playground
 ```
 
 Create an OCaml switch with the required dependencies:
 
 ```sh
-$ opam switch create . 5.1.1 --deps-only
+opam switch create . 5.1.1 --deps-only
 ```
 
 Install development dependencies:
