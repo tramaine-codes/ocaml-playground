@@ -34,7 +34,7 @@ cd ocaml-playground
 Create an OCaml switch with the required dependencies:
 
 ```sh
-opam switch create . 5.1.1 --deps-only
+opam switch create . 5.3.0 --deps-only
 ```
 
 Install development dependencies:
